@@ -1,3 +1,8 @@
 {
-talab : {}
+  "Talab": {
+    "id" : {"int": [1,2,3,4,]}
+    "name": { "string": { "minLength": 3, "maxLength": 10 } },
+    "online": { "boolean": {} },
+    "picture": { "regexp": "https://…" }
+  }
 }
